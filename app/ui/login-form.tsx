@@ -84,6 +84,11 @@ export default function LoginForm() {
           )}
         </div>
       </div>
+      <div className="flex flex-col gap-2 text-black">
+        <h6 className="font-bold">Hint:</h6>
+        <p>email: user@nextmail.com</p>
+        <p>password: 123456</p>
+      </div>
     </form>
   );
 }
